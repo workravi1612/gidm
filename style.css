@@ -1,0 +1,70 @@
+
+body{
+    background-image: linear-gradient(140deg,rgba(112, 0, 255) -300%, rgb(0, 0, 0) 100%);
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+
+}
+
+
+header{
+    /* display: flex; */
+    margin-top: -6vh;
+    text-align: center;
+    
+}
+.gidm_logo{
+    width: 10vh;
+    height: 10vh;
+    margin-left: 1vh;
+}
+
+a{
+    margin: 20px;
+}
+a:any-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.lines{
+    text-align: right;
+    height: 85vh;
+    width: 85vh;
+    /* margin-right: 100%; */
+    margin-left: 63%;
+    margin-top: -5%;
+}
+
+.reach-us{
+    margin-left: 10vh;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 7px;
+}
+
+
+.side-2{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top,rgba(112, 0, 255) -300%, rgb(0, 0, 0) 100%);
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    padding-top: 100%;
+    margin-left: -10px;
+}
+
+.line{
+    padding-top: -100%;
+    margin-top: -90%;
+    font-size: 10vh;
+}
+.subline{
+    padding-top: -100%;
+    margin-top: -75%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
