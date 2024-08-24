@@ -6,7 +6,9 @@ body{
     color: white;
 
 }
-
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 header{
     /* display: flex; */
