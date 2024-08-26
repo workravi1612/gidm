@@ -46,17 +46,29 @@ a:any-link{
     border-radius: 25px;
     padding: 7px;
 }
-
+.custom-cursor { 
+    position: fixed; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    border: 2px solid #00ff00; 
+    mix-blend-mode: screen; /* Glowing effect */ 
+    pointer-events: none; /* Allow interaction with underlying elements */ 
+    transform: translate(-50%, -50%); 
+    /* transition: width 0.2s ease, height 0.2s ease;  */
+} 
 
 .side-2{
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top,rgba(112, 0, 255) -300%, rgb(0, 0, 0) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(25, 0, 58) 49%, rgba(0,0,0,1) 100%);
     padding: 0;
     margin: 0;
     margin-top: 100px;
     padding-top: 100%;
     margin-left: -10px;
+    margin-right: -10px;
 }
 
 .line{
@@ -69,4 +81,13 @@ a:any-link{
     margin-top: -75%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5vh;
+}
+
+.about-us{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 46%;
+    margin-top: 100%;
 }
